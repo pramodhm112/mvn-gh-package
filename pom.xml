@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.maven-gh-package</groupId>
   <artifactId>maven-gh-package</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <name>maven-gh-package</name>
   <packaging>jar</packaging>
   <description>This is Java Testing Demo</description>
