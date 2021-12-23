@@ -31,7 +31,7 @@ jobs:
       run: mvn -B package --file pom.xml
     
     - name: Failed Step
-      run: ech Hello World
+      run: echo Hello World
 
 #     - name: Publish to GitHub Packages Apache Maven
 #       run: mvn deploy -s .m2/settings.xml
