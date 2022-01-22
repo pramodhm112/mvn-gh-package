@@ -67,23 +67,17 @@
       </plugin>
     </plugins>
   </build>
-
   <distributionManagement>
-   <repository>
-     <id>github</id>
-     <name>GitHub pramodhmdt Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/pramodhm112/maven-gh-package</url>
-   </repository>
-   <repository>
+    <repository>
         <id>central</id>
         <name>jfrog-artifactory-pro-releases</name>
-        <url>http://34.121.171.11:8081/artifactory/libs-release-local</url>
-   </repository>
-   <snapshotRepository>
+        <url>https://34.121.171.11:8081/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
         <id>snapshots</id>
         <name>jfrog-artifactory-pro-snapshots</name>
-        <url>http://34.121.171.11:8081/artifactory/libs-release-local</url>
-   </snapshotRepository>
+        <url>https://34.121.171.11:8081/artifactory/libs-release-local</url>
+    </snapshotRepository>
 </distributionManagement>
 
 </project>
