@@ -15,6 +15,11 @@ public class MySum {
 		return c;
 	}
 	
+	static int diffNumbers (int a, int b) {
+		int c = a - b;
+		return c;
+	}
+
 	public static void main(String[] args) {
 		int numbers = Integer.parseInt(args[0]);
 		System.out.println(sumofnumbers(numbers));
